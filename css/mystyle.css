@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(136, 136, 138);
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+body {font-size: smaller;}
+
+body {
+  padding-left:  100px;}
+
+body {font-weight: bolder;}
+
+body {
+  font-size: 18px;
+  background-color: rgb(153, 150, 150);
+}
+
+/* Tablet styles (screen width up to 1024px) */
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+    background-color: lightgray;
+  }
+}
+
+/* Mobile styles (screen width up to 768px) */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+    background-color: lightblue;
+  }
+}
+
+/* Small mobile (screen width up to 480px) */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+    background-color: lightgreen;
+  }
+
+  html {
+  font-size: 100%; /* usually equals 16px */
+}
+
+h1 {
+  font-size: 2rem; /* 2 × root = 32px */
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1rem;  /* 16px */
+  line-height: 1.5em; /* relative to paragraph font-size */
+}
